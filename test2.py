@@ -19,7 +19,7 @@ cipher = AES.new(key,mode,IV)
 
 #decrypted_text = cipher.decrypt(encrypted_message)
 
-message = "this is my super secret"
+message = "trials to AES crypto"
 padded_message = pad_message(message)
 
 encrypted_message = cipher.encrypt(padded_message)

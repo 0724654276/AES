@@ -5,7 +5,7 @@ import hashlib
 password = "mypassword".encode()
 key = hashlib.sha256(password).digest()
 mode = AES.MODE_CBC
-IV = "This is an IV456"
+IV = "kamakia@macharia"
 
 
 def pad_message(message):
